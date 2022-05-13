@@ -8,10 +8,13 @@ internal class SockMatcherKtTest {
     
     @Test
     fun sockMatcher() {
-        val input = 5
+        // given
+        val input = arrayOf(1,2,1,2,1,3,2)
     
+        // when
         val result = sockMatcher(input)
         
-        assertEquals(5, result)
+        // then
+        assertEquals(2, result)
     }
 }

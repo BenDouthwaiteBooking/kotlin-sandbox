@@ -1,9 +1,9 @@
 package com.bld.lrn.codingchallenges
 
-fun sockMatcher(n: Int): Int {
+fun sockMatcher(n: Array<Int>): Int {
     
     println("Sock matcher challenge - test")
     
-    return n
+    return 1
     
 }
